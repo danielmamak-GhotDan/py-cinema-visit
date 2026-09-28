@@ -28,7 +28,6 @@ def cinema_visit(
     )
 
 
-
 if __name__ == "__main__":
     # Ten kod wykona się tylko przy bezpośrednim uruchomieniu pliku main.py
     sample_customers = [
