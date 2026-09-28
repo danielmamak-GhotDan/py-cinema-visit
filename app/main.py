@@ -7,7 +7,8 @@ from app.people.cinema_staff import Cleaner
 def cinema_visit(
         customers: list,
         hall_number: int,
-        cleaner: str, movie: str) -> Customer:
+        cleaner: str,
+        movie: str) -> None:
     list_customer = []
     for customer in customers:
         current_customer = Customer(
@@ -25,6 +26,7 @@ def cinema_visit(
         customers=list_customer,
         cleaning_staff=cleaner_staff
     )
+
 
 
 if __name__ == "__main__":
